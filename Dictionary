@@ -98,12 +98,12 @@ o/p:
 PS C:\atom> python practise.py
 3
 enter key:name
-enter value:vamsi
+enter value:usha
 enter key:age
 enter value:21
 enter key:hobbes
 enter value:playing
-{'name': 'vamsi', 'age': '21', 'hobbes': 'playing'}
+{'name': 'usha', 'age': '21', 'hobbes': 'playing'}
 
 q3) write a program to read sentence and then print word with count in dict?
 sol:
@@ -156,27 +156,27 @@ o/p:
 PS C:\atom> python practise.py
 3
 enter key:name
-enter value:vamsi
+enter value:usha
 enter key:age
 enter value:21
 enter key:hobbes
 enter value:playing
-{'name': 'vamsi', 'age': '21', 'hobbes': 'playing'}
+{'name': 'usha', 'age': '21', 'hobbes': 'playing'}
 
 Q2)write a program to concatenate two Dictionaries into one?
 sol:
-d1 = {"name":"vamsi","age":21}
+d1 = {"name":"usha","age":21}
 d2 = {"hobbies":"playing"}
 d3 = d1.copy()
 d3.update(d2)
 print(d3)
 o/p:
 PS C:\atom> python practise.py
-{'name': 'vamsi', 'age': 21, 'hobbies': 'playing'}
+{'name': 'usha', 'age': 21, 'hobbies': 'playing'}
 
 Q3)write a program to check if a given key exists in a dictionary or not?
 sol:
-d1 = {"name":"vamsi","age":21,"hobbies":"playing"}
+d1 = {"name":"usha","age":21,"hobbies":"playing"}
 n = input("enter a key:")
 
 if n in d1.keys():
@@ -289,4 +289,4 @@ for a in y:
 print(d1)
 o/p:
 PS C:\atom> python practise.py
-{'i': ['i', 'in'], 'a': ['am', 'abdul
+{'i': ['i', 'in'], 'a': ['am', 'abdul']}
